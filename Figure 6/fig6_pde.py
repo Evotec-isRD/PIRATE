@@ -27,7 +27,7 @@ logger.basicConfig(
 
 
 class PirateEvolutionTool:
-    """Deletion Tool for protein construct design"""
+    """Tool for protein construct design"""
 
     def __init__(self, sequence=None, max_residues_to_alter=None, max_iterations=None, protected_residues=None,
                  residues_to_modify=None, gamma=5, epsilon=5, selection_criterion="disorder") -> None:
