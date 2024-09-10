@@ -1,3 +1,4 @@
+![Python](https://img.shields.io/badge/python-3.9-blue.svg)
 # Repository for PIRATE Paper Code 
 
 ![pirate_image](images/pirate.png)
@@ -24,7 +25,7 @@ You can run the code needed to reproduce these figures by executing the Jupyter 
 
 ```python fig6_pde.py```
 
-## Running PIRATE
+## Running PIRATE 
 
 To run the PIRATE application, please navigate your working directory to the /PIRATE folder.
 
