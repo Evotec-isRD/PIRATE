@@ -36,7 +36,7 @@ The user is presented with two modes of use:
 - Basic sequence analysis: in this mode, you enter your sequence and the app will return a plot of predicted disorder (per residue).
 - PIRATE directed evolution: In this mode, you enter your sequence, determine the maximum number of residues to alter, specify any residues that are not to be changed, specify the number of mutations to test at each site and the number of sites to test per round of evolution, and select a final scoring criteria. The output is a CSV containing the sequences, mutation information, and scoring data for each sequence from the Monte Carlo simulation. 
 
-## License [![License: CC-BY-NC-ND-4.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/CC-BY-NC-ND-4.0)
+## License [![License: CC-BY-NC-ND-4.0](https://img.shields.io/badge/license-CC_BY_NC_ND_4.0-green)]
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 deed. You may copy and redistribute the material in any medium or format. This license does not permit commercial use of this product or distribution of this product if it has been modified. 
 
