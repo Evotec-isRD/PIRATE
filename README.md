@@ -12,6 +12,10 @@ Set up your environment by creating a Python 3.9 environment. We recommend insta
 
 Please download the AFSM1, AFSM2, AFSM3, and PIRATE models from (google drive link). These should be placed in the /models directory.
 
+## Downloading DR-BERT 
+
+For reproducing Figures 4 and 5, you'll need a local copy of the DR-BERT checkpoint file. Please follow the instructions in the GitHub repository [here.](https://github.com/maslov-group/DR-BERT)
+
 ## Reproducing Figures 3-6
 
 You can run the code needed to reproduce these figures by executing the Jupyter notebooks located in the Figure 3, Figure 4, and Figure 5 directories. Figure 6 results can be reproduced by navigating the working directory to the Figure 6 folder and running the Python script using:
