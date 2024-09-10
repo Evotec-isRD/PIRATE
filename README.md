@@ -6,8 +6,17 @@ This repository contains the code needed to reproduce key results from the manus
 
 ## Installation
 
-Set up your environment by installing Python 3.9 and the dependencies listed in requirements.txt. Please download the AFSM1, AFSM2, AFSM3, and PIRATE models from (google drive link). These should be placed in the /models directory.
+Set up your environment by creating a Python 3.9 environment. We recommend installing the dependencies listed in requirements.txt with pip:
 
+```pip install -r requirements.txt```
+
+Please download the AFSM1, AFSM2, AFSM3, and PIRATE models from (google drive link). These should be placed in the /models directory.
+
+## Reproducing Figures 3-5
+
+You can run the code needed to reproduce these figures by executing the Jupyter notebooks located in the Figure 3, Figure 4, and Figure 5 directories. Figure 6 results can be reproduced by navigating the working directory to the Figure 6 directory and running the Python script:
+
+```python fig6_pde.py```
 
 ## Running PIRATE
 
