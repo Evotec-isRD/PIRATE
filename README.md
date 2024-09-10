@@ -1,5 +1,7 @@
 # Repository for PIRATE Paper Code 
 
+![pirate_image](images/pirate.png)
+
 ## Purpose
 
 This repository contains the code needed to reproduce key results from the manuscript "PIRATE: Plundering AlphaFold Predictions to Automate Protein Engineering." Additionally, the core functionality for PIRATE disorder prediction and directed evolution is included in the /PIRATE directory. 
