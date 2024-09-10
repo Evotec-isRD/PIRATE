@@ -9,4 +9,5 @@ transformers==4.31.0
 streamlit==1.19.0
 matplotlib==3.7.2
 jupyter==1.0.0
+altair==4.0.0
 protobuf==3.20.3
