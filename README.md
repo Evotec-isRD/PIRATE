@@ -39,3 +39,5 @@ The user is presented with two modes of use:
 ## License
 
 This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 deed. You may copy and redistribute the material in any medium or format. This license does not permit commercial use of this product or distribution of this product if it has been modified. 
+
+For inquiries regarding commercial use, please email info@evotec.com for more information.
