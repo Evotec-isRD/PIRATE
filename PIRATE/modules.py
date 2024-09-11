@@ -2,6 +2,7 @@
 import pirate
 import streamlit as st
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 
 
@@ -56,6 +57,16 @@ def basic_sequence_analysis() -> None:
         # Plot disorder
         fig = make_plot(predictions)
         st.pyplot(fig)
+        # DataFrame for per-residue predictions
+        pred_df = pd.DataFrame()
+        res_list = [i + 1 for i in range(len(predictions))]
+        pred_df["residue_number"] = res_list
+        pred_df["disorder_probability"] = predictions
+        # Download button for predictions
+        st.download_button(label="Download PIRATE generated predictions",
+                           data=pred_df.to_csv(index=False).encode('utf-8'),
+                           file_name="pirate_predictions.csv",
+                           mime="text/csv")
 
 
 def directed_evolution() -> None:
@@ -92,7 +103,7 @@ def directed_evolution() -> None:
 
     gamma = int(st.number_input(label="Number of mutations to test for each site?", min_value=3))
     epsilon = int(st.number_input(label="Number of sites to test each round of mutation?", min_value=3))
-    selection_criterion = st.selectbox(label="How to score permutations?", options=("plddt", "disorder"))
+    selection_criterion = st.selectbox(label="How to score permutations?", options=("disorder", "plddt"))
 
     with st.form(key="my_form_to_submit"):
         submit_button = st.form_submit_button(label="submit")
