@@ -1,5 +1,5 @@
 [![Python](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/) [![Tensorflow](https://img.shields.io/badge/tensorflow-2.8-red.svg)](https://www.tensorflow.org/versions/r2.8/api_docs/python/tf) [![License: CC-BY-NC-ND-4.0](https://img.shields.io/badge/license-CC_BY_NC_ND_4.0-green)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en)
-# Repository for PIRATE Paper Code 
+# **P**rotein **I**dr **R**eduction **A**rtificial in**TE**lligence (PIRATE) 
 
 ![pirate_image](images/pirate.png)
 
