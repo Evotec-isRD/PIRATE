@@ -12,7 +12,7 @@ Set up your environment by creating a Python 3.9 environment. We recommend insta
 
 ```pip install -r requirements.txt```
 
-Please download the AFSM1, AFSM2, AFSM3, and PIRATE models from (google drive link). These should be placed in the /models directory.
+Please download the AFSM1, AFSM2, AFSM3, and PIRATE models [here](https://drive.google.com/drive/folders/1BS1Hv7NceztAiYXvssUUUXMo1UA0Evz-). These should be placed in the /models directory.
 
 ## Downloading DR-BERT 
 
