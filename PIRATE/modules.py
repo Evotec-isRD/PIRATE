@@ -3,6 +3,8 @@ import pirate
 import streamlit as st
 import numpy as np
 import pandas as pd
+import pathlib
+from PIL import Image
 import matplotlib.pyplot as plt
 
 
@@ -18,6 +20,12 @@ def main_page() -> str:
     # Title
     st.title("PIRATE: Yo Ho!")
 
+    # Image
+    local_path = pathlib.Path().absolute()
+    image_path = str(local_path.parents[0]) + "/images/pirate.png"
+    image = Image.open(image_path)
+    st.image(image, width=400)
+    # Radio button for mode selection
     choice = st.radio(label='Mode Selection',
                       options=["Basic Sequence Analysis", "PIRATE Directed Evolution"], horizontal=True)
 
