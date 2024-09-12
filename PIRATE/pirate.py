@@ -1,3 +1,7 @@
+"""
+PIRATE Directed Evolution tool
+"""
+
 # Import libraries
 import tensorflow as tf
 import numpy as np

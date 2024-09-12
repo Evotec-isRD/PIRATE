@@ -1,12 +1,15 @@
+"""
+Modules of the PIRATE Streammlit application
+"""
+
 # Import libraries
-import pirate
+import pathlib
 import streamlit as st
 import numpy as np
 import pandas as pd
-import pathlib
 from PIL import Image
 import matplotlib.pyplot as plt
-
+import pirate
 
 def main_page() -> str:
     """

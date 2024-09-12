@@ -1,3 +1,7 @@
+"""
+Main Streamlit application file.
+"""
+
 import modules
 
 choice = modules.main_page()
