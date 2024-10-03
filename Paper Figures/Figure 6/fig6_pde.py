@@ -99,7 +99,7 @@ class PirateEvolutionTool:
         self.afsm1_model = tf.keras.models.load_model(afsm1_path, custom_objects=None, compile=True, options=None)
         logger.info("afsm1 loaded")
         self.afsm2_model = tf.keras.models.load_model(afsm2_path, custom_objects=None, compile=True, options=None)
-        logger.info("afms2 loaded")
+        logger.info("afsm2 loaded")
         self.afsm3_model = tf.keras.models.load_model(afsm3_path, custom_objects=None, compile=True, options=None)
         logger.info("afsm3 loaded")
         self.pirate_model = pickle.load(open(pirate_path, 'rb'))
