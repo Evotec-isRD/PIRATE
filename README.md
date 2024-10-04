@@ -4,6 +4,8 @@
 
 This repository contains the code needed to reproduce key results from the manuscript "PIRATE: Plundering AlphaFold Predictions to Automate Protein Engineering." Additionally, the core functionality for PIRATE disorder prediction and directed evolution is included in the /PIRATE directory. 
 
+[preprint link](https://www.biorxiv.org/content/10.1101/2024.10.02.611680)
+
 ## Installation
 
 Set up your environment by creating a Python 3.9 environment. We recommend installing the dependencies listed in requirements.txt with pip:
